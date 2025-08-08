@@ -9,15 +9,19 @@ All products include an `image` field already filled with sample image URLs sour
 
 Each product in the dataset includes:
 
-| Field      | Type    | Description                                                   |
-| ---------- | ------- | ------------------------------------------------------------- |
-| `id`       | Integer | Unique product identifier                                     |
-| `name`     | String  | Name of the product                                           |
-| `category` | String  | Product category (e.g., Tops, Bottoms, Footwear, Accessories) |
-| `size`     | Array   | Available sizes                                               |
-| `color`    | String  | Main color of the product                                     |
-| `price`    | Float   | Price in USD                                                  |
-| `image`    | String  | Image URL (left empty for you to fill)                        |
+## 📂 Dataset Structure
+
+Each product in the dataset includes:
+
+| Field       | Type   | TypeScript | Description                                                                                     |
+|-------------|--------|------------|-------------------------------------------------------------------------------------------------|
+| `id`        | Int | number     | Unique product identifier (integer)                                                            |
+| `name`      | String | string     | Name of the product                                                                             |
+| `category`  | String | string     | Product category (e.g., Tops, Bottoms, Footwear, Accessories)                                   |
+| `size`      | Array  | string[]   | Available sizes                                                                                 |
+| `color`     | String | string     | Main color of the product                                                                       |
+| `price`     | Float | number     | Price in USD (float for cents)                                                                  |
+| `image`     | String | string     | Image URL for product display (already filled with sample URLs)                                 |     |
 
 ---
 
