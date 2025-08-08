@@ -2,21 +2,93 @@
   "products": [
     {
       "id": 1,
-      "name": "Laptop",
-      "price": 999.99,
-      "inStock": true
+      "name": "Classic White T-Shirt",
+      "category": "Tops",
+      "size": ["S", "M", "L", "XL"],
+      "color": "White",
+      "price": 15.99,
+      "image": "https://nobero.com/cdn/shop/products/white_c26fa070-f26d-4a2f-ba1e-66d2b17a2508.jpg?v=1711979035"
     },
     {
       "id": 2,
-      "name": "Smartphone",
-      "price": 499.99,
-      "inStock": false
+      "name": "Blue Denim Jeans",
+      "category": "Bottoms",
+      "size": ["28", "30", "32", "34", "36"],
+      "color": "Blue",
+      "price": 39.99,
+      "image": "https://www.mrporter.com/variants/images/10163292708421485/in/w2000_q60.jpg"
     },
     {
       "id": 3,
-      "name": "Tablet",
-      "price": 299.99,
-      "inStock": true
+      "name": "Black Jacket",
+      "category": "Outerwear",
+      "size": ["S", "M", "L"],
+      "color": "Black",
+      "price": 89.99,
+      "image": "https://www.jlindeberg.com/cdn/shop/files/93145a8b828cb7fb2d5dda222e88e6f1_001.jpg?v=1718196718&width=920"
+    },
+    {
+      "id": 4,
+      "name": "Classic Baseball Cap",
+      "category": "Accessories",
+      "size": ["One Size"],
+      "color": "Navy Blue",
+      "price": 14.99,
+      "image": "https://www.bon-clic-bon-genre.us/photo/baseball_20210615102713.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Gray Hoodie",
+      "category": "Outerwear",
+      "size": ["S", "M", "L", "XL"],
+      "color": "Gray",
+      "price": 29.99,
+      "image": "https://colorfulstandard.com/cdn/shop/files/CS1015_Male_OrganicOversizedHood-HeatherGrey_2_580352e4-cc8f-4407-a329-999706687e44.jpg?v=1745574577"
+    },
+    {
+      "id": 6,
+      "name": "Black Running Shoes",
+      "category": "Footwear",
+      "size": ["7", "8", "9", "10", "11", "12"],
+      "color": "Black",
+      "price": 64.99,
+      "image": "https://cdn.thewirecutter.com/wp-content/media/2024/11/runningshoes-2048px-09528.jpg?auto=webp&quality=75&width=1024"
+    },
+    {
+      "id": 7,
+      "name": "White Sneakers",
+      "category": "Footwear",
+      "size": ["7", "8", "9", "10", "11"],
+      "color": "White",
+      "price": 59.99,
+      "image": "https://www.vulpine.cc/cdn/shop/products/vulpine-mens-city-chinos-black-1.jpg?v=1665582535"
+    },
+    {
+      "id": 8,
+      "name": "Green Polo Shirt",
+      "category": "Tops",
+      "size": ["S", "M", "L", "XL"],
+      "color": "Green",
+      "price": 22.99,
+      "image": "https://images.hugoboss.com/is/image/boss/hbna50302557_360_21?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1588860447000&wid=1200&hei=1818"
+    },
+    {
+      "id": 9,
+      "name": "Navy Blue Blazer",
+      "category": "Outerwear",
+      "size": ["S", "M", "L", "XL"],
+      "color": "Navy Blue",
+      "price": 74.99,
+      "image": "https://cdn.sanity.io/images/tgi56uf8/production/bb1194062b4050dab4b09899eecd08e0272fc8b1-5342x8009.jpg?rect=0,361,5342,7289&w=513&h=700&fit=crop&auto=format"
+    },
+    {
+      "id": 10,
+      "name": "Brown Leather Loafers",
+      "category": "Footwear",
+      "size": ["7", "8", "9", "10", "11"],
+      "color": "Brown",
+      "price": 79.99,
+      "image": "https://grenson.sirv.com/s-nomnt8gvvb/images/stencil/original/products/3052/7522/epsom_114499_threequarter_print__95645.1699277688.jpg"
     }
   ]
 }
